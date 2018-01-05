@@ -1,0 +1,78 @@
+{
+  "responsive": true,
+  "lang": "en",
+  "glyph-icons": true,
+  "enableEditorJS": true,
+  "theme_color": "#009688",
+  "background_color": "#ffffff",
+  "short_name": "Wards",
+  "name": "Wards Mobile Mechanic",
+  "display": "standalone",
+  "start_url": "https://thimbleprojects.org/wardsmobilemechanic/371131/",
+  "icons": [{
+    "src": "https://wardsmobilemechanic.com/images/asemastercertified_clipped_rev_1.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  },
+            {
+              "src": "https://wardsmobilemechanic.com/images/asemastercertified_clipped_rev_1.png",
+              "sizes": "256x256",
+              "type": "image/png"
+            },
+            {
+              "src": "https://wardsmobilemechanic.com/images/asemastercertified_clipped_rev_1.png",
+              "sizes": "384x384",
+              "type": "image/png"
+            },
+            {
+              "src": "https://wardsmobilemechanic.com/images/asemastercertified_clipped_rev_1.png",
+              "sizes": "512x512",
+              "type": "image/png"
+            }
+
+           ],
+  "plugins": [{
+    "name": "navpane",
+    "condense": 1024,
+    "defaults": {
+      "forced": true
+    }
+  }],
+
+  "variations": [{
+    "value": "light",
+    "sample": "#ffffff",
+    "is-dark": false
+  },
+                 {
+                   "value": "dark",
+                   "sample": "#000000",
+                   "is-dark": true
+                 }
+                ],
+  "custom-options": [{
+    "name": "sticky-nav",
+    "title": "Fixed Navigation",
+    "type": "toggle",
+    "default": false,
+    "is-body-class": true,
+    "is-less-var": false
+  },
+                     {
+                       "name": "full-width",
+                       "title": "Full Width",
+                       "type": "toggle",
+                       "default": true,
+                       "is-body-class": true,
+                       "is-less-var": false
+                     },
+                     {
+                       "name": "header-scroll-animate",
+                       "title": "Animate Header Scroll",
+                       "type": "toggle",
+                       "default": false,
+                       "is-body-class": true,
+                       "is-less-var": false
+                     }
+                    ]
+}
