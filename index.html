@@ -278,7 +278,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
           navigator.serviceWorker.register(
-            "/service-worker.js"
+            "https://cmperry85.github.io/trial/service-worker.js"
           ).then(function(a) {
             console.log("ServiceWorker registration successful with scope: ", a.scope)
           }, function(a) {
