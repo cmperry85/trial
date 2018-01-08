@@ -278,7 +278,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
           navigator.serviceWorker.register(
-            "trial/service-worker.js"
+            "/service-worker.js"
           ).then(function(a) {
             console.log("ServiceWorker registration successful with scope: ", a.scope)
           }, function(a) {
