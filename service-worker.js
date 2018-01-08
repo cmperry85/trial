@@ -22,8 +22,8 @@ const PRECACHE_URLS = [
   'index.html',
   './', // Alias for index.html
   'style.css',
-  'wards.js'
-  'flickity.js'
+  'wards.js',
+  'flickity.js',
   'contactform.js'
 ];
 
